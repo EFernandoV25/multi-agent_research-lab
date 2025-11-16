@@ -30,7 +30,7 @@ import os
 from src.agents import create_researcher, create_writer, create_reviewer
 from crewai import Task, Crew, Process
 
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = "pon tu llave aqui"
 os.environ["OPENAI_API_KEY"] = "sk-dummy-key"
 
 TOPIC = "Impact of Synthetic Data in Healthcare"
