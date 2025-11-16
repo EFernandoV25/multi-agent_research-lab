@@ -6,7 +6,7 @@ Agent definitions for AI Research Team
 import os
 from crewai import Agent
 
-GROQ_API_KEY = os.getenv("GROQ_API_KEY", "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")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
 os.environ["GROQ_API_KEY"] = GROQ_API_KEY
 os.environ["OPENAI_API_KEY"] = "sk-dummy-key"
 
